@@ -30,6 +30,13 @@ public class EVA2_14_CAPTURA {
             System.out.print("["+califas[i]+"]");
             
         }
+        int suma=0;
+        for(int i=0;i<califas.length;i++){
+        suma = suma + califas[i];
+        }
+        double promedio = suma/(double)tama;
+        System.out.println("Promedio= "+promedio);
+        
     }
     
 }
